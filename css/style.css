@@ -34,6 +34,7 @@ a {
 
 address {
   font-style: normal;
+  margin-bottom: 2rem;
 }
 
 figure {
@@ -79,12 +80,19 @@ ul {
 }
 
 .related-article {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 175px;
+  padding: 15px;
+  margin: 15px 0;
+
   color: white;
 
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.related-article h3 {
+  margin:0;
 }
 
 #graph-article {
