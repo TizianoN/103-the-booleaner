@@ -1,0 +1,96 @@
+/* GENERICS */
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: #4ea0ff;
+  background-image: url("../img/pattern.png");
+}
+
+header .container {
+  line-height: 80px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #4ea0ff;
+}
+
+.logo {
+  width: 200px;
+  vertical-align: middle;
+}
+
+address {
+  font-style: normal;
+}
+
+figure {
+  margin: 0;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #20a9e5;
+  color: white;
+}
+
+ul {
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+/* UTILS */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.text-small {
+  font-size: .75rem;
+}
+
+.text-muted {
+  color: #555;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.bg-lightblue {
+  background-color: #b1e5f2;
+}
+
+.related-article {
+  width: 250px;
+  height: 250px;
+  color: white;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#graph-article {
+  background-image: url("../img/graph.jpg");
+}
+
+#monitor-article {
+  background-image: url("../img/monitor.jpg");
+}
